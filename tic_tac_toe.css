@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+body{
+    background-color: #CCC5B9;
+    justify-items: center;
+}
+.game{
+    background-color: #403D39;
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 1000px;
+    border: 2px solid #403D39;
+    border-radius: 20px;
+    color: #CCC5B9;
+}
+.turn_conatiner{
+    background-color: #403D39;
+    width: 500px;
+    height: 700px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid #403D39;
+    border-radius: 20px;
+    justify-items: center;
+    justify-content: center;
+    color: #CCC5B9;
+}
+.names{
+    margin-top: 40px;
+}
+.reset{
+    margin-left: 120px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #CCC5B9;
+    color: #000;
+
+}
+.reset:hover{
+    transition-duration: 1s;
+    background-color: #65625e;
+    color: #000;
+}
+.turn{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #CCC5B9;
+    margin-right: 190px;
+}
+#boxs {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;  /* Relative width */
+    height: 60%;  /* Relative height */
+    gap: 3px;
+    justify-items: center;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #CCC5B9;
+    border: 2px solid #403D39;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #403D39;
+}
+.cell:hover{
+    transition-duration: 1s;
+    background-color: #65625e;
+    color: #000;
+}
+#message{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #CCC5B9;
+}
+footer{
+    background-color: #403D39;
+    color: #CCC5B9;
+    margin-top: 70px;
+    width: 100%;
+    padding: 20px 20px;
+    justify-items: center;
+}
+
+@media(max-width:480px){
+    .game{
+        width:110px;
+        height: 50px;
+        margin:0;
+        color: #CCC5B9;
+        margin-top: 20px;
+    }
+    .turn_conatiner{
+        width:330px;
+        height: 700px;
+    }
+    #boxs{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width:100% ;  /* Relative width */
+        height: 10px;  /* Relative height */
+        gap: 3px;
+        justify-items: center;
+    }
+    #message{
+        margin-top: 400px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #CCC5B9;
+    }
+}
