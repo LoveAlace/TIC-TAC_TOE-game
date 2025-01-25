@@ -1,5 +1,5 @@
-Title: [TIC-TAC_TOE-game]
-Group: [3]
+Title: [TIC-TAC_TOE-game] <br>
+Group: [3]<br>
 Group Members: 
 ------------------------------------------------------------------------------------------------------------
 Name                                                | Id
